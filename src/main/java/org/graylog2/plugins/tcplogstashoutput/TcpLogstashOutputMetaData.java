@@ -34,7 +34,7 @@ public class TcpLogstashOutputMetaData implements PluginMetaData {
 
     @Override
     public Version getVersion() {
-        return new Version(0, 3, 0);
+        return new Version(0, 3, 1);
     }
 
     @Override
@@ -45,7 +45,7 @@ public class TcpLogstashOutputMetaData implements PluginMetaData {
 
     @Override
     public Version getRequiredVersion() {
-        return new Version(0, 3, 0);
+        return new Version(0, 3, 1);
     }
 
     @Override
